@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewLife - Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #017bf5;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #017bf5;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 100%;
+            max-width: 150px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: #017bf5;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            color: #ffffff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #ffffff;
+            color: #017bf5;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ffffff;
+            color: #017bf5;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .black-text {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            header img {
+                width: 40%;
+                max-width: 200px;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 8px;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            footer {
+                padding: 8px;
+                font-size: 14px;
+            }
+
+            .button {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+
+            ul li {
+                font-size: 16px;
+                padding: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header img {
+                width: 30%;
+                max-width: 150px;
+            }
+
+            nav a {
+                font-size: 14px;
+                padding: 6px;
+                display: block;
+                padding: 5px 0;
+            }
+
+            section {
+                padding: 5px;
+            }
+
+            footer {
+                padding: 5px;
+                font-size: 12px;
+            }
+
+            .button {
+                font-size: 14px;
+                padding: 6px 12px;
+            }
+
+            ul li {
+                font-size: 14px;
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="newlife2.png" alt="Logo">
+        <h1>Explore Our Services</h1>
+        <p>Your Vision, Our Expertise</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Go Home</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <section>
+        <h2>Our Services Include:</h2>
+        <h2>Cremation Prices</h2>
+        <ul class="black-text">
+            <li><b>Full Body (Regular): 17,000 Pesos</b></li>
+            <li><b>Full Body (Senior/PWD): 13,500 Pesos</b></li>
+            <li><b>Bones: 10,500 Pesos</b></li>
+            <li><b>Bones with Flesh: 13,500 Pesos</b></li>
+            <li><b>Baby (0-5 Years old): 10,500 Pesos</b></li>
+            <li><b>Child (6-12 Years old): 11,000 Pesos</b></li>
+            <li><b>Parts: 10,500 Pesos</b></li>
+        </ul>
+
+        <h2>Cremation Requirements</h2>
+        <ul class="black-text">
+            <li><b>Photocopy only!</b></li>
+            <li><b>Death Certificate "Registered"</b></li>
+            <li><b>Cremation Permit</b></li>
+            <li><b>ID of Deceased (For Regular)</b></li>
+            <li><b>ID of Deceased (If Senior/PWD)</b></li>
+            <li><b>Transfer permit (if outside Antipolo)</b></li>
+            <li><b>ID of Informant</b></li>
+            <li><b>Exhumation permit (for bones only)</b></li>
+        </ul>
+
+        <button class="button" onclick="redirectToContact()">Contact Us</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NewLife. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function redirectToContact() {
+            window.location.href = 'contact.html';
+        }
+    </script>
+</body>
+</html>
